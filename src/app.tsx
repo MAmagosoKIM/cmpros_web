@@ -1,9 +1,9 @@
 import "./styles.css";
 import * as React from "react";
 import { useState } from "react";
-import { star, heart, hand, plane, lightning, note } from "./paths.ts";
+import { star, heart, hand, plane, lightning, note } from "./paths";
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
-import { getIndex, useFlubber } from "./use-flubber.ts";
+import { getIndex, useFlubber } from "./use-flubber";
 
 
 const paths = [lightning, hand, plane, heart, note, star, lightning];
